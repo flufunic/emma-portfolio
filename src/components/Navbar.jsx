@@ -62,7 +62,7 @@ export default function Navbar() {
       >
         <a onClick={() => setOpen(false)} href="#about" className="block hover:text-purple-400">About</a>
         <a onClick={() => setOpen(false)} href="#projects" className="block hover:text-purple-400">Projects</a>
-        <a onClick={() => setOpen(false)} href="#skills" className="block hover:text-purple-400">Experiences</a>
+        <a onClick={() => setOpen(false)} href="#experiences" className="block hover:text-purple-400">Experiences</a>
         <a onClick={() => setOpen(false)} href="#contact" className="block hover:text-purple-400">Contact</a>
       </div>
 

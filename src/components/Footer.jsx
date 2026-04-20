@@ -66,9 +66,9 @@ export default function Footer() {
 
           <div className="space-y-3 text-sm">
 
-            <a href="mailto:youremail@gmail.com" className="flex items-center gap-3 hover:text-purple-400 transition">
+            <a href="mailto:sarkillaemma@gmail.com" className="flex items-center gap-3 hover:text-purple-400 transition">
               <FaEnvelope />
-              sarkillaemmma@gmail.com
+              sarkillaemma@gmail.com
             </a>
 
             <a href="https://instagram.com/emsarrr_" target="_blank" className="flex items-center gap-3 hover:text-pink-400 transition">
@@ -93,7 +93,7 @@ export default function Footer() {
 
       {/* BOTTOM */}
       <div className="relative border-t border-white/10 py-4 text-center text-sm text-gray-500">
-        © 2026 Emma Portfolio. All rights reserved.
+        © 2026 Emma Sarkilla. All rights reserved.
       </div>
 
     </footer>

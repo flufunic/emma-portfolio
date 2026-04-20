@@ -5,43 +5,83 @@ const experiences = [
   {
     name: "PT Sumber Segara Primadaya Cilacap",
     type: "works",
-    role: "Web Developer Intern",
-    desc: "Building responsive frontend applications using React and contributing to web-based system development for internal tools and learning platforms.",
-    image: "/gambar1.jpg",
+    role: "IT Division Intern | July 2024 - Aug 2024",
+    desc: "Developed and maintained backend functionalities for a civil agenda website using Laravel 11, focusing on post-login dashboard features and CRUD operations. Implemented server-side logic for managing user data, ensuring secure authentication, and optimizing data processing for efficient system performance.",
+    image: "/experinces/spp.jpg",
     logo: "/logo/s2p.png"
   },
   {
     name: "Kantor Imigrasi Kelas I TPI Cilacap",
     type: "works",
-    role: "Backend Developer",
-    desc: "Developing structured backend systems using Laravel with database integration and API handling.",
+    role: "Public Relations Division Intern | July 2025 - Aug 2025",
+    desc: "Contributed to the development and enhancement of internal web applications and public service platforms using Laravel and Yii frameworks to support digital transformation at the Immigration Office.",
     image: "/experinces/imigrasi.png",
     logo: "/logo/imigrasi.png"
   },
   {
     name: "Kantor Telkom Witel Purwokerto",
     type: "works",
-    role: "Mobile Developer",
-    desc: "Creating cross-platform mobile applications using Flutter and Dart.",
+    role: "Infrastructure Division Intern | Sep 2025 - Oct 2025",
+    desc: "Supported infrastructure division operations by performing daily system monitoring and data validation to ensure accuracy and reliability of information",
     image: "/experinces/telkom.jpg",
     logo: "/logo/telkom.png"
   },
   {
-    name: "Organisasi Kampus",
+    name: "Himpunan Mahasiswa Informatika (HMIF) Unsoed",
     type: "organizations",
-    role: "Member / Coordinator",
-    desc: "Active involvement in campus organization activities, teamwork coordination, and event support.",
-    image: "/organisasi.jpg",
-    logo: "/gambar1.jpg"
+    role: "Staff of Public Relations Division | Mar 2023 - Dec 2023",
+    desc: "Served as the project leader for the 'Relasi / Study Banding' program, coordinating collaborations with other student organizations. Successfully executed the program 5 times with effective team coordination and communication.",
+    image: "/experinces/stuban.jpg",
+    logo: "/logo/hmiff.png"
   },
   {
-    name: "Kepanitiaan Event",
+    name: "Perhimpunan Mahasiswa Informatika dan Komputer Nasional Wilayah VII Jateng",
+    type: "organizations",
+    role: "Staff of Human Resources Development Division | May 2023 - Mar 2024",
+    desc: "Led the cloud computing workshop program in collaboration with Gmedia Jogja, overseeing end-to-end execution from planning to implementation. Coordinated event preparation, including speaker selection, scheduling, and logistics, ensuring a well-organized and successful event.",
+    image: "/experinces/permi.png",
+    logo: "/logo/permikomnas.png"
+  },
+  {
+    name: "Senyum Anak Nusantara Chapter Purwokerto",
+    type: "organizations",
+    role: "Staff of Public Relations Division | Apr 2024 - Dec 2024",
+    desc: "Contributed to educational and social initiatives for children by supporting learning activities and organizing community events, fostering an engaging and impactful learning environment.",
+    image: "/experinces/san.jpg",
+    logo: "/logo/san.png"
+  },
+  {
+    name: "Maskrab Makrab Informatika",
     type: "committee",
-    role: "Committee Member",
-    desc: "Experience in organizing and managing campus events, including technical and operational support.",
-    image: "/event.jpg",
-    logo: "/gambar1.jpg"
-  }
+    role: "Staff of Group Companion Division | Aug 2024 - Feb 2025",
+    desc: "Acted as a group mentor during the department orientation program for two periods, mentoring and assisting 30+ new students in their transition to university life. Led group discussions, supported activities, and fostered a supportive and inclusive environment.",
+    image: "/experinces/mm.jpg",
+    logo: "/logo/mm.png"
+  },
+  {
+    name: "Soedirman Technophoria",
+    type: "committee",
+    role: "Staff of Public Relations Division | Aug 2023 - Nov 2023",
+    desc: "Led promotional and outreach efforts for the Soedirman Technoporia competition, engaging diverse audiences to increase visibility and participation. Coordinated with judges and seminar speakers to support seamless event execution.",
+    image: "/experinces/stech.jpg",
+    logo: "/logo/stech.png"
+  },
+  {
+    name: "Festival Teknologi Jawa Tengah",
+    type: "committee",
+    role: "Staff of Food and Beverage Division | Aug 2022 - Sep 2022",
+    desc: "Handled food and beverage coordination, overseeing procurement and distribution to ensure smooth operations and participant satisfaction during the event.",
+    image: "/experinces/ftj.png",
+    logo: "/logo/ftj.png"
+  },
+  {
+    name: "Unsoed Day Cilacap",
+    type: "committee",
+    role: "Staff of Public Relations Division | Des 2024 - Feb 2024",
+    desc: "Coordinated with schools in Cilacap to organize university introduction programs for Universitas Jenderal Soedirman. Delivered presentations and Q&A sessions to promote study programs, scholarships, and campus life to prospective students.",
+    image: "/experinces/udc.png",
+    logo: "/logo/udc.png"
+  },
 ]
 
 const filters = ["all", "works", "organizations", "committee"]

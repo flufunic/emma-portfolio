@@ -10,31 +10,7 @@ const data = [
     tech: ["Laravel", "PHP", "MySQL", "Laragon", "Bootstrap"],
     github: "https://github.com/flufunic/kancilakurat",
     demo: "#",
-    image: "/gambar1.jpg" 
-  },
-  {
-    title: "KANCIL SAPA",
-    desc: "Kancil Sapa is a web-based application for sending WhatsApp broadcast messages efficiently. Users can upload a list of phone numbers, connect their WhatsApp account via QR code, and send messages with optional attachments.",
-    tech: ["HTML", "JavaScript", "Bootstrap", "Node.js", "Express", "Venom Bot"],
-    github: "https://github.com/flufunic/kancilsapa",
-    demo: "#",
-    image: "/gambar1.jpg"
-  },
-  {
-    title: "CEK PENERIMA BANSOS",
-    desc: "The Social Assistance Recipient Check website is a web-based application developed as part of a KKN program in Adisara Village to help residents easily check their eligibility for social assistance. Through this website, users can verify whether they are registered as beneficiaries by simply entering specific data, such as their national ID number (NIK).",
-    tech: ["Flask", "Python","Bootstrap"],
-    github: "https://github.com/flufunic/coba",
-    demo: "#",
-    image: "/gambar1.jpg"
-  },
-  {
-    title: "AGENDA SIPIL",
-    desc: "Agenda Sipil is a web-based application designed to manage and organize activities or schedules in a structured way. Through this website, users can easily add, edit, and monitor their agendas within a centralized system.",
-    tech: ["Laravel", "PHP", "MySQL", "Laragon", "Bootstrap"],
-    github: "https://github.com/flufunic/agendasipil",
-    demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/akurat.png" 
   },
   {
     title: "XMANAH",
@@ -42,7 +18,7 @@ const data = [
     tech: ["Flutter", "Dart", "Firebase"],
     github: "https://github.com/flufunic/agendasipil",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/xmanah.png"
   },
   {
     title: "Sentiment Analysis on Qpon Using IndoBERT",
@@ -50,7 +26,31 @@ const data = [
     tech: ["Python", "IndoBERT", "Transformers", "PyTorch", "Pandas", "Google Colab"],
     colab: "https://colab.research.google.com/drive/1plA54QsI5AZwtoptevbOMlR6M8JHY5w1?usp=sharing",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/qpon.png"
+  },
+  {
+    title: "KANCIL SAPA",
+    desc: "Kancil Sapa is a web-based application for sending WhatsApp broadcast messages efficiently. Users can upload a list of phone numbers, connect their WhatsApp account via QR code, and send messages with optional attachments.",
+    tech: ["HTML", "JavaScript", "Bootstrap", "Node.js", "Express", "Venom Bot"],
+    github: "https://github.com/flufunic/kancilsapa",
+    demo: "#",
+    image: "/projects/sapa.png"
+  },
+  {
+    title: "CEK PENERIMA BANSOS",
+    desc: "The Social Assistance Recipient Check website is a web-based application developed as part of a KKN program in Adisara Village to help residents easily check their eligibility for social assistance. Through this website, users can verify whether they are registered as beneficiaries by simply entering specific data, such as their national ID number (NIK).",
+    tech: ["Flask", "Python","Bootstrap"],
+    github: "https://github.com/flufunic/coba",
+    demo: "#",
+    image: "/projects/cek.png"
+  },
+  {
+    title: "AGENDA SIPIL",
+    desc: "Agenda Sipil is a web-based application designed to manage and organize activities or schedules in a structured way. Through this website, users can easily add, edit, and monitor their agendas within a centralized system.",
+    tech: ["Laravel", "PHP", "MySQL", "Laragon", "Bootstrap"],
+    github: "https://github.com/flufunic/agendasipil",
+    demo: "#",
+    image: "/projects/sipil.png"
   },
   {
     title: "Flower Classification Using MobileNetV2",
@@ -58,7 +58,7 @@ const data = [
     tech: ["Python", "TensorFlow", "Keras", "MobileNetV2", "Google Colab", "NumPy", "Matplotlib"],
     colab: "https://colab.research.google.com/drive/1o1KONeKSnmkR3gTZy-tb7VhU-qio7Az1?usp=sharing",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/flower.png"
   },
   {
     title: "Gold Price Forecasting Using Deep Learning (LSTM)",
@@ -66,7 +66,7 @@ const data = [
     tech: ["Python", "TensorFlow", "Keras", "MobileNetV2", "Google Colab", "NumPy", "Matplotlib"],
     colab: "https://colab.research.google.com/drive/1uYIbdlwzm-To6uffJLJObYTi_8FCkKdm?usp=sharing",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/gold.png"
   },
   {
     title: "PERIKSA",
@@ -74,7 +74,7 @@ const data = [
     tech: ["Figma", "User Flow", "Wireframing", "Prototyping", "Design System"],
     figma: "https://www.figma.com/proto/KONXGsbO4WgjZbzyp8XxJh/PERIKSA?node-id=22-258&starting-point-node-id=22%3A2&t=dK0ForkPTnlRqYvc-1&scaling=scale-down-width&content-scaling=fixed&hide-ui=1",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/periksa.png"
   },
   {
     title: "AnemiaCare",
@@ -82,7 +82,7 @@ const data = [
     tech: ["Figma", "User Flow", "Wireframing", "Prototyping", "Design System"],
     figma: "https://www.figma.com/proto/LhyF1Wq8uWRF8EtnRuRW56/AnemiaCare?node-id=4-2&p=f&t=2ZDHY5AGLBqlQkjf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/anemia.png"
   },
   {
     title: "RAPUNZEL",
@@ -90,15 +90,15 @@ const data = [
     tech: ["Figma", "User Flow", "Wireframing", "Prototyping", "Design System"],
     figma: "https://www.figma.com/proto/ZFr2yFI5UxItQyeXfVpSCT/Project_pemweb?node-id=1-4&p=f&t=zTH1ToQ4n9FBcZbo-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/rapunzel.png"
   },
   {
     title: "PORTFOLIO - EMMA SARKILLA",
     desc:"This portfolio website showcases my skills, projects, and experience in Web Development, UI/UX Design, and Data Science. It provides an overview of the work I have done and highlights my ability to create responsive websites, design user-friendly interfaces, and work with data.",
     tech: ["React.js", "Tailwind CSS", "JavaScript", "Vite"],
-    github: "#",
+    github: "https://github.com/flufunic/emma-portfolio",
     demo: "#",
-    image: "/gambar1.jpg"
+    image: "/projects/port.png"
   },
 ]
 
