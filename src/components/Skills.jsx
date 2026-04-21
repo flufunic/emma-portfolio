@@ -6,7 +6,7 @@ const experiences = [
     name: "PT Sumber Segara Primadaya Cilacap",
     type: "works",
     role: "IT Division Intern | July 2024 - Aug 2024",
-    desc: "Developed and maintained backend functionalities for a civil agenda website using Laravel 11, focusing on post-login dashboard features and CRUD operations. Implemented server-side logic for managing user data, ensuring secure authentication, and optimizing data processing for efficient system performance.",
+    desc: "Developed and maintained backend functionalities for a civil agenda website using Laravel 11, focusing on post login dashboard features and CRUD operations. Implemented server side logic for managing user data, ensuring secure authentication, and optimizing data processing for efficient system performance.",
     image: "/experinces/spp.jpg",
     logo: "/logo/s2p.png"
   },
@@ -38,7 +38,7 @@ const experiences = [
     name: "Perhimpunan Mahasiswa Informatika dan Komputer Nasional Wilayah VII Jateng",
     type: "organizations",
     role: "Staff of Human Resources Development Division | May 2023 - Mar 2024",
-    desc: "Led the cloud computing workshop program in collaboration with Gmedia Jogja, overseeing end-to-end execution from planning to implementation. Coordinated event preparation, including speaker selection, scheduling, and logistics, ensuring a well-organized and successful event.",
+    desc: "Led the cloud computing workshop program in collaboration with Gmedia Jogja, overseeing end to end execution from planning to implementation. Coordinated event preparation, including speaker selection, scheduling, and logistics, ensuring a well organized and successful event.",
     image: "/experinces/permi.png",
     logo: "/logo/permikomnas.png"
   },

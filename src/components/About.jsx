@@ -182,7 +182,7 @@ export default function About() {
 
         <p className="text-gray-400 leading-relaxed">
         I'm an Informatics graduate passionate about Web Development, UI/UX Design, and Data Science. 
-        I build responsive and user-focused web applications, design intuitive user experiences, and explore data to generate meaningful insights.
+        I build responsive and user focused web applications, design intuitive user experiences, and explore data to generate meaningful insights.
         I am continuously learning and improving my skills across these fields. 
         Let’s connect and build something impactful together!
         </p>

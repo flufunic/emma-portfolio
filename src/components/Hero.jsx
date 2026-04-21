@@ -92,11 +92,26 @@ export default function Hero() {
 
             {/* FOTO */}
             <motion.img
-              src="/gg.jpg"
-              alt="Emma"
-              className="relative w-full h-full object-cover rounded-full z-10"
-            />
-
+            src="/gg.jpg"
+            alt="Emma"
+            draggable="false"
+            onContextMenu={(e) => e.preventDefault()}
+            onDragStart={(e) => e.preventDefault()}
+            animate={{
+              y: [0, -5, 0],
+              boxShadow: [
+                "0 10px 25px rgba(0,0,0,0.4)",
+                "0 20px 40px rgba(168,85,247,0.3)",
+                "0 10px 25px rgba(0,0,0,0.4)"
+              ]
+            }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="w-full h-full object-cover rounded-full z-10 select-none"
+          />
           </div>
         </motion.div>
 

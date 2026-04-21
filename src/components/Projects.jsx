@@ -6,7 +6,7 @@ import { useState } from 'react'
 const data = [
   {
     title: "KANCIL AKURAT",
-    desc: "Kancil Akurat is a web-based application for managing budget data in an organized and efficient way. Users can input, edit, and monitor data through a simple and user-friendly dashboard.",
+    desc: "Kancil Akurat is a web based application for managing budget data in an organized and efficient way. Users can input, edit, and monitor data through a simple and user friendly dashboard.",
     tech: ["Laravel", "PHP", "MySQL", "Laragon", "Bootstrap"],
     github: "https://github.com/flufunic/kancilakurat",
     demo: "#",
@@ -30,7 +30,7 @@ const data = [
   },
   {
     title: "KANCIL SAPA",
-    desc: "Kancil Sapa is a web-based application for sending WhatsApp broadcast messages efficiently. Users can upload a list of phone numbers, connect their WhatsApp account via QR code, and send messages with optional attachments.",
+    desc: "Kancil Sapa is a web based application for sending WhatsApp broadcast messages efficiently. Users can upload a list of phone numbers, connect their WhatsApp account via QR code, and send messages with optional attachments.",
     tech: ["HTML", "JavaScript", "Bootstrap", "Node.js", "Express", "Venom Bot"],
     github: "https://github.com/flufunic/kancilsapa",
     demo: "#",
@@ -38,7 +38,7 @@ const data = [
   },
   {
     title: "CEK PENERIMA BANSOS",
-    desc: "The Social Assistance Recipient Check website is a web-based application developed as part of a KKN program in Adisara Village to help residents easily check their eligibility for social assistance. Through this website, users can verify whether they are registered as beneficiaries by simply entering specific data, such as their national ID number (NIK).",
+    desc: "The Social Assistance Recipient Check website is a web based application developed as part of a KKN program in Adisara Village to help residents easily check their eligibility for social assistance. Through this website, users can verify whether they are registered as beneficiaries by simply entering specific data, such as their national ID number (NIK).",
     tech: ["Flask", "Python","Bootstrap"],
     github: "https://github.com/flufunic/coba",
     demo: "#",
@@ -46,7 +46,7 @@ const data = [
   },
   {
     title: "AGENDA SIPIL",
-    desc: "Agenda Sipil is a web-based application designed to manage and organize activities or schedules in a structured way. Through this website, users can easily add, edit, and monitor their agendas within a centralized system.",
+    desc: "Agenda Sipil is a web based application designed to manage and organize activities or schedules in a structured way. Through this website, users can easily add, edit, and monitor their agendas within a centralized system.",
     tech: ["Laravel", "PHP", "MySQL", "Laragon", "Bootstrap"],
     github: "https://github.com/flufunic/agendasipil",
     demo: "#",
@@ -70,7 +70,7 @@ const data = [
   },
   {
     title: "PERIKSA",
-    desc: " UI/UX design for Periksa, a web-based complaint, criticism, and suggestion platform for the Faculty of Engineering, UNSOED. The design focuses on a simple, user-friendly interface to make it easier for users to submit and track reports.",
+    desc: " UI/UX design for Periksa, a web based complaint, criticism, and suggestion platform for the Faculty of Engineering, UNSOED. The design focuses on a simple, user friendly interface to make it easier for users to submit and track reports.",
     tech: ["Figma", "User Flow", "Wireframing", "Prototyping", "Design System"],
     figma: "https://www.figma.com/proto/KONXGsbO4WgjZbzyp8XxJh/PERIKSA?node-id=22-258&starting-point-node-id=22%3A2&t=dK0ForkPTnlRqYvc-1&scaling=scale-down-width&content-scaling=fixed&hide-ui=1",
     demo: "#",
@@ -164,7 +164,7 @@ export default function Projects() {
                   className="px-3 py-1.5 rounded-full border border-white/20 text-sm text-gray-300 hover:text-white hover:border-purple-400 transition flex items-center gap-2"
                 >
                   <FaGithub />
-                  Code
+                  Github
                 </a>
               )}
 
