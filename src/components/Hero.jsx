@@ -3,22 +3,22 @@ import { TypeAnimation } from 'react-type-animation'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center px-6 max-w-6xl mx-auto z-10">
+    <section className="relative min-h-screen flex items-center px-4 md:px-6 max-w-6xl mx-auto z-10 overflow-hidden">
 
       {/* BACKGROUND */}
       <div className="absolute inset-0 -z-10 bg-black"></div>
 
-      {/* BACKGROUND GLOW */}
+      {/* BACKGROUND GLOW (FIX: center + aman mobile) */}
       <motion.div
         animate={{ x: [0, 20, -20, 0], y: [0, -15, 15, 0] }}
         transition={{ repeat: Infinity, duration: 14, ease: "easeInOut" }}
-        className="absolute w-[420px] h-[420px] bg-purple-500/10 blur-[160px] rounded-full top-20 left-1/3 -z-10"
+        className="absolute w-[300px] md:w-[420px] h-[300px] md:h-[420px] bg-purple-500/10 blur-[120px] rounded-full top-20 left-1/2 -translate-x-1/2 -z-10"
       />
 
       <motion.div
         animate={{ x: [0, -15, 15, 0], y: [0, 20, -20, 0] }}
         transition={{ repeat: Infinity, duration: 16, ease: "easeInOut" }}
-        className="absolute w-[320px] h-[320px] bg-pink-500/10 blur-[180px] rounded-full bottom-10 right-1/3 -z-10"
+        className="absolute w-[250px] md:w-[320px] h-[250px] md:h-[320px] bg-pink-500/10 blur-[140px] rounded-full bottom-10 left-1/2 -translate-x-1/2 -z-10"
       />
 
       <div className="grid md:grid-cols-2 gap-10 items-center w-full">
@@ -31,16 +31,16 @@ export default function Hero() {
           className="relative flex justify-center"
         >
 
-          {/* 🔥 GLOW BELAKANG */}
+          {/* GLOW BELAKANG */}
           <motion.div
             animate={{ scale: [1, 1.08, 1], opacity: [0.2, 0.35, 0.2] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute w-72 h-72 rounded-full bg-purple-500 blur-[120px] -z-10"
+            className="absolute w-64 h-64 md:w-72 md:h-72 rounded-full bg-purple-500 blur-[100px] -z-10"
           />
 
-          <div className="relative w-56 h-56">
+          <div className="relative w-48 h-48 md:w-56 md:h-56">
 
-            {/* 🌊 WAVE ORBIT */}
+            {/* SVG ORBIT */}
             <motion.svg
               className="absolute inset-0 w-full h-full pointer-events-none"
               viewBox="0 0 200 200"
@@ -48,7 +48,6 @@ export default function Hero() {
               transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
             >
 
-              {/* OUTER GLOW WAVE */}
               <motion.path
                 fill="none"
                 stroke="rgba(192,132,252,0.8)"
@@ -65,7 +64,6 @@ export default function Hero() {
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               />
 
-              {/* INNER WAVE */}
               <motion.path
                 fill="none"
                 stroke="rgba(236,72,153,0.9)"
@@ -81,7 +79,6 @@ export default function Hero() {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               />
 
-              {/* DASHED RING */}
               <circle
                 cx="100"
                 cy="100"
@@ -91,31 +88,14 @@ export default function Hero() {
                 strokeWidth="4"
                 strokeDasharray="6 10"
               />
-
             </motion.svg>
 
             {/* FOTO */}
             <motion.img
               src="/gg.jpg"
               alt="Emma"
-              animate={{
-                y: [0, -5, 0],
-                boxShadow: [
-                  "0 10px 25px rgba(0,0,0,0.4)",
-                  "0 20px 40px rgba(168,85,247,0.3)",
-                  "0 10px 25px rgba(0,0,0,0.4)"
-                ]
-              }}
-              transition={{
-                duration: 5,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-              className="relative w-56 h-56 object-cover rounded-full z-10"
+              className="relative w-full h-full object-cover rounded-full z-10"
             />
-
-            {/* ✨ GLASS HIGHLIGHT */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/10 to-transparent pointer-events-none" />
 
           </div>
         </motion.div>
@@ -150,16 +130,14 @@ export default function Hero() {
             Bachelor's Degree in Informatics Engineering | Fresh Graduate Student at Jenderal Soedirman University
           </p>
 
-          {/* 🔥 FIX UTAMA: kasih z-index */}
-          <div className="flex gap-3 justify-center md:justify-start relative z-30">
+          <div className="flex gap-3 justify-center md:justify-start">
 
-         <button
-          onClick={() => window.open('/CV.pdf', '_blank')}
-          className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white"
-        >
-          View My CV
-        </button>
-
+            <button
+              onClick={() => window.open('/CV.pdf', '_blank')}
+              className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white"
+            >
+              View My CV
+            </button>
 
             <button
               onClick={() => {
@@ -176,25 +154,9 @@ export default function Hero() {
 
       </div>
 
-      {/* 🔥 FIX: turunin layer */}
-      <div className="absolute bottom-0 left-0 w-full h-40 pointer-events-none z-0">
+      {/* BOTTOM FADE (hapus duplikat, cukup satu) */}
+      <div className="absolute bottom-0 left-0 w-full h-40 pointer-events-none">
         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/80 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-40 bg-black blur-xl opacity-70" />
-      </div>
-
-      {/* HERO BOTTOM FADE */}
-      <div className="absolute bottom-0 left-0 w-full h-40 pointer-events-none z-0">
-        
-        {/* fade utama */}
-        <div className="absolute bottom-0 left-0 w-full h-full 
-          bg-gradient-to-t from-black via-black/80 to-transparent" 
-        />
-
-        {/* blur halus */}
-        <div className="absolute bottom-0 left-0 w-full h-40 
-          bg-black blur-xl opacity-70" 
-        />
-
       </div>
 
     </section>
