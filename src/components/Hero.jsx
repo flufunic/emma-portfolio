@@ -148,7 +148,7 @@ export default function Hero() {
           <div className="flex gap-3 justify-center md:justify-start">
 
             <button
-              onClick={() => window.open('/CV.pdf', '_blank')}
+              onClick={() => window.open('/cvbaru.pdf', '_blank')}
               className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white"
             >
               View My CV
