@@ -16,7 +16,7 @@ const data = [
     title: "XMANAH",
     desc: "Xmanah is a mobile application designed to provide integrated local information for users in one platform. It helps users find nearby boarding houses, places to eat, places of worship, healthcare facilities, and educational institutions quickly and easily.",
     tech: ["Flutter", "Dart", "Firebase"],
-    github: "https://github.com/flufunic/agendasipil",
+    github: "https://github.com/flufunic/xmanah",
     demo: "#",
     image: "/projects/xmanah.png"
   },
