@@ -138,17 +138,17 @@ export default function Hero() {
           </h1>
 
           <span className="block text-base md:text-lg text-gray-300 mb-2">
-            Web Developer | UI/UX Designer | Data Science Enthusiast
+            Web Developer | Software Developer | Data Science Enthusiast
           </span>
 
           <p className="text-gray-400 mb-4">
-            Bachelor's Degree in Informatics Engineering | Fresh Graduate Student at Jenderal Soedirman University
+           Bachelor's Degree in Informatics Engineering | Jenderal Soedirman University
           </p>
 
           <div className="flex gap-3 justify-center md:justify-start">
 
             <button
-              onClick={() => window.open('/cvbaru.pdf', '_blank')}
+              onClick={() => window.open('/CVEmma.pdf', '_blank')}
               className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white"
             >
               View My CV

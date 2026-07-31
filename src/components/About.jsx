@@ -181,10 +181,9 @@ export default function About() {
         </h2>
 
         <p className="text-gray-400 leading-relaxed">
-        I'm an Informatics graduate passionate about Web Development, UI/UX Design, and Data Science. 
-        I build responsive and user focused web applications, design intuitive user experiences, and explore data to generate meaningful insights.
-        I am continuously learning and improving my skills across these fields. 
-        Let’s connect and build something impactful together!
+        I'm an Informatics graduate passionate about Web Development, Software Development, and Data Science. 
+        Through internships and personal projects, I've gained hands-on experience in developing web applications, managing databases, testing applications, and documenting software systems. 
+        I also enjoy exploring data to uncover meaningful insights while continuously learning new technologies and building reliable digital solutions.
         </p>
       </motion.div>
 

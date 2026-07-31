@@ -6,7 +6,7 @@ const experiences = [
     name: "PT Sumber Segara Primadaya Cilacap",
     type: "works",
     role: "IT Division Intern | July 2024 - Aug 2024",
-    desc: "Developed and maintained backend functionalities for a civil agenda website using Laravel 11, focusing on post login dashboard features and CRUD operations. Implemented server side logic for managing user data, ensuring secure authentication, and optimizing data processing for efficient system performance.",
+    desc: "Developed a web-based agenda management application to help users organize and monitor schedules through a centralized system. Implemented dashboard features, CRUD functionalities, application testing, database validation, and technical documentation to ensure system reliability and usability.",
     image: "/experinces/spp.jpg",
     logo: "/logo/s2p.png"
   },
@@ -14,7 +14,7 @@ const experiences = [
     name: "Kantor Imigrasi Kelas I TPI Cilacap",
     type: "works",
     role: "Public Relations Division Intern | July 2025 - Aug 2025",
-    desc: "Contributed to the development and enhancement of internal web applications and public service platforms using Laravel and Yii frameworks to support digital transformation at the Immigration Office.",
+    desc: "Contributed to the development and enhancement of internal web applications by implementing new features, improving existing systems, and supporting digital public services. Collaborated with the team to perform application testing, database validation, debugging, and technical documentation to improve system functionality and reliability.",
     image: "/experinces/imigrasi.png",
     logo: "/logo/imigrasi.png"
   },
@@ -22,7 +22,7 @@ const experiences = [
     name: "Kantor Telkom Witel Purwokerto",
     type: "works",
     role: "Infrastructure Division Intern | Sep 2025 - Oct 2025",
-    desc: "Supported infrastructure division operations by performing daily system monitoring and data validation to ensure accuracy and reliability of information",
+    desc: "Supported daily infrastructure operations by monitoring system performance, validating operational data, and assisting in troubleshooting activities. Contributed to maintaining accurate information and ensuring the reliability of network and system operations.",
     image: "/experinces/telkom.jpg",
     logo: "/logo/telkom.png"
   },
@@ -30,7 +30,7 @@ const experiences = [
     name: "Himpunan Mahasiswa Informatika (HMIF) Unsoed",
     type: "organizations",
     role: "Staff of Public Relations Division | Mar 2023 - Dec 2023",
-    desc: "Served as the project leader for the 'Relasi / Study Banding' program, coordinating collaborations with other student organizations. Successfully executed the program 5 times with effective team coordination and communication.",
+    desc: "Led the Relasi/Study Banding program by coordinating cross-organization collaborations, managing event planning, and ensuring successful execution. Recognized as Staff of the Month for outstanding performance and contribution to the organization.",
     image: "/experinces/stuban.jpg",
     logo: "/logo/hmiff.png"
   },
@@ -38,7 +38,7 @@ const experiences = [
     name: "Perhimpunan Mahasiswa Informatika dan Komputer Nasional Wilayah VII Jateng",
     type: "organizations",
     role: "Staff of Human Resources Development Division | May 2023 - Mar 2024",
-    desc: "Led the cloud computing workshop program in collaboration with Gmedia Jogja, overseeing end to end execution from planning to implementation. Coordinated event preparation, including speaker selection, scheduling, and logistics, ensuring a well organized and successful event.",
+    desc: "Led the organization of a cloud computing workshop in collaboration with an industry partner by coordinating event planning, speaker communication, scheduling, and execution. Collaborated with cross-functional teams to deliver a successful learning program for participants.",
     image: "/experinces/permi.png",
     logo: "/logo/permikomnas.png"
   },

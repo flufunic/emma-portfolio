@@ -68,7 +68,7 @@ export default function Footer() {
 
             <a href="mailto:sarkillaemma@gmail.com" className="flex items-center gap-3 hover:text-purple-400 transition">
               <FaEnvelope />
-              sarkillaemma@gmail.com
+              Gmail
             </a>
 
             <a href="https://instagram.com/emsarrr_" target="_blank" className="flex items-center gap-3 hover:text-pink-400 transition">
